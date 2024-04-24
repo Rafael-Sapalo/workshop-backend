@@ -56,6 +56,8 @@ Bun.serve({
 
 ### Exercice 3: Créer un endpoint qui recoit un objet composé de `name`, `email` et `age` le parse et le renvoie
 
+
+
 ### Exercice 4: base de donner avec mongoDB
 
 **Objectif**: Créer un endpoint qui enregistre un utilisateur dans une base de données mongoDB
@@ -75,3 +77,9 @@ bun add mongoose
 5. creer un endpoint qui enregistre un utilisateur dans la base de données (! attention le mot de passe doit etre crypté avant de l'enregistrer)
 
 6. creer un endpoint qui renvoie tous les utilisateurs
+
+### Exercice 5: Authentification
+
+**Objectif**: Créer un endpoint qui permet de s'authentifier
+
+1. creer un endpoint qui renvoie true si l'utilisateur existe et que le mot de passe est correct
