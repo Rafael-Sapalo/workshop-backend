@@ -41,10 +41,6 @@ Bun.serve({
 ```
 
 
-- target directory: my-app
-- Which template do you want to use?: bun
-- Which package manager do you want to use? bun
-
 ## Exercices
 
 ### Exercice 1: Envoyer `Hello World` avec hono
