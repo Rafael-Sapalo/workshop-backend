@@ -79,3 +79,22 @@ bun add mongoose
 **Objectif**: Créer un endpoint qui permet de s'authentifier
 
 1. creer un endpoint qui renvoie true si l'utilisateur existe et que le mot de passe est correct
+
+### Exercice 6 Middleware
+Objectif: Mettre en place une validation des données pour assurer l'intégrité des informations reçues par votre API.
+
+Utilisez 'zod' pour définir un schéma de validation pour les données entrantes.
+Créez un endpoint qui accepte des données d'utilisateur et utilisez le schéma de validation pour vous assurer que les données sont correctes avant de les traiter ou de les enregistrer dans la base de données.
+
+### Exercice 8: Gestion des autorisations
+Objectif: Implémenter un système d'autorisation pour contrôler l'accès aux ressources de votre API.
+
+Créez un système de gestion des rôles et des autorisations basique. Par exemple, définissez des rôles comme "utilisateur" et "administrateur".
+
+Ajoutez des middleware d'authentification et d'autorisation pour protéger certains endpoints ou ressources sensibles. Assurez-vous que seuls les utilisateurs autorisés peuvent accéder à ces ressources.
+
+### Exercice 9: Tests unitaires
+Objectif: Mettre en place des tests unitaires pour garantir le bon fonctionnement de votre application.
+
+Utilisez un framework de test comme Jest ou Mocha pour écrire des tests unitaires pour vos endpoints.
+Testez chaque endpoint avec différentes entrées et assurez-vous que les réponses sont correctes et que les erreurs sont gérées comme prévu.
